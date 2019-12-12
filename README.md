@@ -1,6 +1,6 @@
 # nyco-rss-2-json
 
-An AWS Lambda function that parses RSS into JSON for self-hosting.
+A self hosted RSS into JSON proxy using AWS Lambda.
 
 ## To Deploy:
 

@@ -1,7 +1,7 @@
 {
   "name": "nyco-rss-to-json",
   "version": "1.0.2",
-  "description": "An AWS Lambda function that parses RSS into JSON for self-hosting.",
+  "description": "A self hosted RSS into JSON proxy using AWS Lambda",
   "main": "index.js",
   "scripts": {
     "test": "sam local invoke -e event.json NycoRss2Json"
