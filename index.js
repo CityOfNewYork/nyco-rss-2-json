@@ -8,7 +8,8 @@ const sendRes = (status, body) => {
 		isBase64Encoded: true | false,
 		statusCode: status,
 		headers: {
-			'Content-Type': 'application/json',
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
 		},
 		body: JSON.stringify(body),
 	};
